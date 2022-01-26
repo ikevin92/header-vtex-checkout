@@ -1,29 +1,75 @@
-<header class="header-checkout">
-  <div class="header-checkout--container-mobile">
-    <figure class="header-checkout--container-mobile--figure">
-      <img
-        class="header-checkout--container-mobile--figure--img"
-        src="/arquivos/logo-header-mobile.svg"
-        alt="logo-header"
-      />
-    </figure>
+<header>
+  <!-- notification-bar -->
+  <div class="notification-bar" id="notification-bar">
+    <p class="notification-bar--text">
+      Envío
+      <span class="notification-bar--text_special">gratis</span>
+      por comprar superios a $70.000
+    </p>
+
+    <button
+      class="notification-bar--close-button"
+      id="notification-bar--close-button"
+    >
+      ×
+    </button>
   </div>
-  <div class="header-checkout--container-desktop">
-    <figure class="header-checkout--container-desktop--figure">
-      <img
-        class="header-checkout--container-desktop--figure--img"
-        src="/arquivos/logo-header-big.png"
-        alt="logo-header"
-      />
-    </figure>
-    <div class="header-checkout--container-desktop--info">
-      <p class="header-checkout--container-desktop--info--text">
-        <span class="header-checkout--container-desktop--info--text__help"
-          >¿Necesitas ayuda?</span
-        >
-        <span class="header-checkout--container-desktop--info--text__phone"> Línea nacional 018000510777 </span>
-        <span class="header-checkout--container-desktop--info--text__email"> / info@capsulasexpressnutresa.com</span>
-      </p>
+
+  <div class="header-checkout--col2">
+    <div class="header-checkout--container-mobile">
+      <figure class="header-checkout--container-mobile--figure">
+        <img
+          class="header-checkout--container-mobile--figure--img"
+          src="/arquivos/logo-header-mobile.png"
+          alt="logo-header"
+        />
+      </figure>
+    </div>
+    <div class="header-checkout--container-desktop">
+      <figure class="header-checkout--container-desktop--figure">
+        <img
+          class="header-checkout--container-desktop--figure--img"
+          src="/arquivos/logo-header-big.png"
+          alt="logo-header"
+        />
+      </figure>
+      <div class="header-checkout--container-desktop--info">
+        <p class="header-checkout--container-desktop--info--text">
+          <span class="header-checkout--container-desktop--info--text__help"
+            >¿Necesitas ayuda?</span
+          >
+          <span class="header-checkout--container-desktop--info--text__phone">
+            Línea nacional 018000510777
+          </span>
+          <span class="header-checkout--container-desktop--info--text__email">
+            / info@capsulasexpressnutresa.com</span
+          >
+        </p>
+      </div>
+    </div>
+  </div>
+
+  <!-- paso a paso -->
+
+  <div class="progress-container">
+    <div class="progress" id="progress"></div>
+    <div class="step-element active" id="step_element__paso1">
+      <div class="capsula active" id="capsula_1">
+        <span class="number">1</span>
+      </div>
+      <span class="text active" id="text_1"> Ingresa tu correo </span>
+    </div>
+    <div class="step-element" id="step_element__paso1">
+      <div class="capsula" id="capsula_2">
+        <span class="number">2</span>
+      </div>
+      <span class="text" id="text_2"> Datos de envío y pago </span>
+    </div>
+    <div class="step-element">
+      <div class="capsula" id="capsula_3">
+        <span class="number">3</span>
+      </div>
+      <span class="text" id="text_3"> Pedido confirmado </span>
     </div>
   </div>
 </header>
